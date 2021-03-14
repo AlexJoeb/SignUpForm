@@ -1,0 +1,80 @@
+section.right {
+  @include flex($dir: column);
+
+  h2.header {
+    font-size: 15px;
+    background: color(Blue);
+    color: color(White);
+    padding: 23px 66px 13px;
+    text-align: center;
+    border-radius: 10px;
+    @include letter-spacing(17.86);
+    line-height: 26px;
+    box-shadow: 0 8px 0 rgba(color(Black), .15);
+    margin-bottom: 24px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  form.form {
+    background: color(White);
+    border-radius: 10px;
+    box-shadow: 0 8px 0 rgba(color(Black), .15);
+    padding: 24px 24px 20px;
+    margin-bottom: 68px;
+
+    button[type='submit'] {
+      background: color(Green);
+      width: 100%;
+      padding: 20px 0 15px;
+      border: 0;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 15px;
+      @include letter-spacing(66.67);
+      color: color(White);
+      margin-bottom: 12px;
+    }
+
+    label {
+      span.sr-only {
+        position: absolute;
+        top: -100%;
+        left: 0;
+      }
+
+      input {
+        width: 100%;
+        border: 1px solid color(Gray);
+        border-radius: 5px;
+        padding: 19px 0 17px 20px;
+        margin-bottom: 16px;
+
+        &::placeholder {
+          font-family: $font_stack-primary;
+          color: color(TextBlack);
+          font-weight: 500;
+          line-height: 26px;
+          @include letter-spacing(17.86);
+          opacity: .75;
+        }
+      }
+    }
+
+    p.terms {
+      font-size: 11px;
+      color: color(GrayishBlue);
+      line-height: 21px;
+      text-align: center;
+
+      span {
+        color: color(Red);
+        font-weight: bold;
+      }
+    }
+  }
+
+}

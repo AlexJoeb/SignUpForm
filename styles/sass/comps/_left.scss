@@ -1,0 +1,20 @@
+section.left {
+  margin: 95px 0 60px;
+  text-align: center;
+
+  h1.title, p.desc {
+    color: color(White);
+  }
+
+  h1.title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  p.desc {
+    font-size: 1rem;
+    font-weight: medium;
+    line-height: 26px;
+  }
+}

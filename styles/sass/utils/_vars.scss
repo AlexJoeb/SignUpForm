@@ -1,0 +1,51 @@
+// ========================
+// = Font Settings ========
+// ========================
+
+    // == Font Stack ==
+    @import "fonts";
+
+    $font_stack-primary: "Poppins", sans-serif;
+
+    // == Font Weight ==
+
+    $font_weight: (
+        thin: 100,
+        normal: 400,
+        bold: 700,
+    );
+
+    // == Font Size ==
+    $font_sizes: (
+        xsmall: .5rem,
+        small: .825rem,
+        normal: 1rem,
+        large: 1.25rem,
+        xlarge: 2rem,
+    );
+    
+// ========================
+// = Color Settings =======
+// ========================
+
+    // == Color Def ==
+    $colors: (
+        White: #fff,
+        Black: #000,
+        TextBlack: #3D3B48,
+        Gray: #dedede,
+        Red: hsl(0, 100%, 74%),
+        Blue: hsl(248, 32%, 49%),
+        Green: hsl(154, 59%, 51%),
+        DarkBlue: hsl(249, 10%, 26%),
+        GrayishBlue: hsl(246, 25%, 77%),
+
+    );
+
+// ========================
+// = Break Point Settings =
+// ========================
+
+$break_points: (
+    desktop: 1440px,
+);
